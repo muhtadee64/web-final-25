@@ -58,7 +58,7 @@ body {
   background-color: #5500aa;
 }
 
-/* Banner */
+
 .banner {
   display: flex;
   align-items: center;
@@ -108,12 +108,12 @@ body {
   gap: 40px;
 }
 
-/* Let grid grow and take full space */
+
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Fixed 4 columns */
+  grid-template-columns: repeat(4, 1fr); 
   gap: 20px;
-  flex: 1; /* take available space */
+  flex: 1;
 }
 
 .product-section h2 {
@@ -124,14 +124,14 @@ body {
 
 .category-buttons {
   display: flex;
-  flex-direction: column; /* stacks items vertically */
-  gap: 12px; /* adds spacing between buttons */
-  align-items: flex-start; /* optional: align to the left */
+  flex-direction: column; 
+  gap: 12px; 
+  align-items: flex-start; 
   margin-bottom: 30px;
 }
 
 .category-buttons button {
-  /* padding: 10px 20px; */
+
   height: 40px;
   width: 120px;
   border: none;
@@ -149,14 +149,6 @@ body {
   background-color: #4b0082;
 }
 
-/* Product Grid */
-/* .product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-} */
-
-/* Product Card */
 .product-card {
   background-color: #fff;
   border: 1px solid #ddd;
@@ -282,9 +274,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #b1b1b461; /* light purple background */
+  background-color: #b1b1b461; 
   padding: 30px 150px;
-  /* gap: 40px; */
   flex-wrap: wrap;
 }
 

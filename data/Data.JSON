@@ -1,0 +1,115 @@
+[
+  {
+    "id": 1,
+    "category": "Laptop",
+    "name": "MacBook Pro M2",
+    "price": "$1299",
+    "image": "https://i.ibb.co/23M9CwXC/macpro.jpg",
+    "description": "Apple's latest high-performance laptop with M2 chip."
+  },
+  {
+    "id": 2,
+    "category": "Mobile",
+    "name": "iPhone 16",
+    "price": "$999",
+    "image": "https://i.ibb.co/3YcGVCgm/i16.jpg",
+    "description": "Sleek design, great camera, and blazing-fast speed."
+  },
+  {
+    "id": 3,
+    "category": "Watch",
+    "name": "Galaxy Watch 7",
+    "price": "$349",
+    "image": "https://i.ibb.co/YBC9GXtQ/sw7.jpg",
+    "description": "Track your health and stay connected on the go."
+  },
+  {
+    "id": 4,
+    "category": "AirPod",
+    "name": "AirPods Pro 2",
+    "price": "$249",
+    "image": "https://i.ibb.co/Psm0kdtc/airp2.jpg",
+    "description": "Noise-canceling earbuds with superior sound quality."
+  },
+  {
+    "id": 5,
+    "category": "Earphone",
+    "name": "Sony Wired Earphones",
+    "price": "$49",
+    "image": "https://i.ibb.co/rRgy3kFR/sonywe.jpg",
+    "description": "High-quality wired earphones for music lovers."
+  },
+  {
+    "id": 6,
+    "category": "Laptop",
+    "name": "Hp Pavilion Aero",
+    "price": "$1199",
+    "image": "https://i.ibb.co/0jjcJQPH/HPA13.jpg",
+    "description": "Lightweight and powerful ultrabook."
+  },
+  {
+    "id": 7,
+    "category": "Mobile",
+    "name": "Nothing Phone 3a",
+    "price": "$999",
+    "image": "https://i.ibb.co/zVCGzBL9/n3a.jpg",
+    "description": "Lightweight, powerful and with great camera ."
+  },
+  {
+    "id": 8,
+    "category": "Mobile",
+    "name": "Nothing Phone 3a Pro",
+    "price": "$1399",
+    "image": "https://i.ibb.co/1fdXQ68G/n3ap.jpg",
+    "description": "Flagship‑style design, 3× telephoto, Glyph LEDs, robust battery."
+  },
+  {
+    "id": 9,
+    "category": "Watch",
+    "name": "Casio DW-H5600",
+    "price": "$299",
+    "image": "https://i.ibb.co/JwzdHDhC/Casiodwh5600.jpg",
+    "description": "Track your health and stay connected on the go."
+  },
+  {
+    "id": 10,
+    "category": "Watch",
+    "name": "Casio DW-5600",
+    "price": "$199",
+    "image": "https://i.ibb.co/pjcg5Wnw/dw5600.jpg",
+    "description": "Track your health and stay connected on the go."
+  },
+  {
+    "id": 11,
+    "category": "Watch",
+    "name": "Apple Watch Ultra 2",
+    "price": "$349",
+    "image": "https://i.ibb.co/wrCgH1s2/awu2.jpg",
+    "description": "Track your health and stay connected on the go."
+  },
+  {
+    "id": 12,
+    "category": "Mobile",
+    "name": "Samsung S25",
+    "price": "$999",
+    "image": "https://i.ibb.co/Fk131hsg/s25.jpg",
+    "description": "Flagship‑style design, 10× telephoto, amoled display, great battery."
+  },
+  {
+    "id": 13,
+    "category": "Camera",
+    "name": "Sony limited edition php-7700",
+    "price": "$3299",
+    "image": "https://i.ibb.co/cSh92Pw2/sony.jpg",
+    "description": "High-resolution, fast autofocus, superb image quality, professional features."
+  },
+  {
+    "id": 14,
+    "category": "Camera",
+    "name": "Hasselblad d77",
+    "price": "$4999",
+    "image": "https://i.ibb.co/FLRpjWdJ/hasselblad.jpg",
+    "description": "Premium build, stunning detail, medium format, legendary color science."
+  }
+
+]

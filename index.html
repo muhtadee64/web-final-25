@@ -3,12 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Muhtadee's project</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -25,32 +31,124 @@
         </nav>
         <button class="signin-btn">Sign In</button>
       </header>
-
-      <main>
+<main>
         <section class="banner">
           <div class="banner-text">
-            <h1>Explore the Future of Tech</h1>
-            <p>
-              Discover the latest gadgets and electronics tailored for your
-              needs. From cutting‑edge smartphones and sleek laptops to smart
-              home devices and wearable tech like watches, we bring you the best in
-              innovation and quality. Browse our carefully curated collection to
-              find exclusive deals, insider reviews, and personalized
-              recommendations—so you can shop with confidence and stay ahead of
-              the curve.
-            </p>
+            <h1 class="font2">Explore the Future of Tech</h1>
 
             <button>Shop Now</button>
           </div>
           <div class="banner-image">
-            
             <img src="Image/watche.jpg" alt="Gadget" />
           </div>
         </section>
-      </main>
-      <footer>ID:24229571 Name:Muhtadee Abdullah Al</footer>
-    </div>
+        <section class="features-section">
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="icon">⚡</div>
+              <h4>Fast Delivery</h4>
+              <p>
+                Get your gadgets delivered at lightning speed to your doorstep.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="icon">💳</div>
+              <h4>Secure Payment</h4>
+              <p>
+                We offer trusted and encrypted payment options for every
+                purchase.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="icon">🛡</div>
+              <h4>Warranty Protection</h4>
+              <p>Every product is backed with a full manufacturer warranty.</p>
+            </div>
+            <div class="feature-card">
+              <div class="icon">📞</div>
+              <h4>24/7 Support</h4>
+              <p>Our team is always here to help, anytime you need us.</p>
+            </div>
+          </div>
+        </section>
 
+        <section>
+          <div>
+            <h2 class="product font2">Our Products</h2>
+            <p class="subtitle font">
+              Browse our latest gadgets crafted for performance, style, and
+              innovation.
+            </p>
+          </div>
+          <div class="product-section">
+            <div class="category-buttons">
+              <button data-category="All">All</button>
+              <button data-category="Laptop">Laptop</button>
+              <button data-category="Mobile">Mobile</button>
+              <button data-category="Watch">Watch</button>
+              <button data-category="AirPod">AirPod</button>
+              <button data-category="Earphone">Earphone</button>
+              <button data-category="Camera">Camera</button>
+            </div>
+
+            <div class="product-grid" id="product-container"></div>
+          </div>
+        </section>
+        <section class="offer">
+          <div class="offer-text">
+            <h1 class="">- Up to 20% Off!</h1>
+            <p>New Year Sale</p>
+            <button>Shop Now</button>
+          </div>
+          <div class="offer-image">
+            <img src="Image/Casiodwh5600.jpg" alt="Gadget" />
+          </div>
+        </section>
+        <section class="testimonial-section">
+          <h2 class="font2">What Our Customers Say</h2>
+          <div class="testimonial-grid">
+            <div class="testimonial-card">
+              <div class="quote-icon">“</div>
+              <p class="testimonial-text">
+                Amazing service and top-quality products! ElectroTech is my
+                go-to store.
+              </p>
+              <div class="stars">★ ★ ★ ★ ★</div>
+              <p class="customer-name">— Nahid Rahman</p>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="quote-icon">“</div>
+              <p class="testimonial-text">
+                Fast delivery and excellent customer support. Highly
+                recommended!
+              </p>
+              <div class="stars">★ ★ ★ ★ ☆</div>
+              <p class="customer-name">— Jannat Ara</p>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="quote-icon">“</div>
+              <p class="testimonial-text">
+                Great prices and easy to navigate website. I love shopping here.
+              </p>
+              <div class="stars">★ ★ ★ ★ ★</div>
+              <p class="customer-name">— Rehan Hossain</p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer">
+        <div class="footer-right">
+          <p> Name: Muhtadee Abdullah Al</p>
+          <p>ID: 24229571</p>
+        </div>
+        <div class="footer-left">
+          <img class="footer-img" src="Image/dddd.jpg" alt="" />
+        </div>
+      </footer>
+    </div>
+    <script src="js/style.js"></script>
     
   </body>
 </html>

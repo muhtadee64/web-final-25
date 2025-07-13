@@ -33,16 +33,6 @@ body {
   color: white;
 }
 
-.nav-links a {
-  margin: 0 15px;
-  text-decoration: none;
-  color: #e0d7ff;
-  transition: color 0.3s;
-}
-
-.nav-links a:hover {
-  color: #fff;
-}
 
 .signin-btn {
   background-color: #6a0dad;
@@ -399,7 +389,7 @@ body {
 .footer-right p {
   margin: 0;
   line-height: 1.4;
-  text-align: right;
+  text-align: left;
 }
 
 .customer-name {

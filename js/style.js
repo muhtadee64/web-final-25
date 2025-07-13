@@ -68,5 +68,5 @@ document.getElementById("review-form").addEventListener("submit", function (e) {
 });
 
 window.addEventListener("DOMContentLoaded", function () {
-  alert("👋 Welcome to ElectroTech — Discover the Future of Innovation with Us!");
+  alert("👋 Welcome to ElectroTech — Muhtadee's Electrotech. Discover the Future of Innovation with Us!");
 });

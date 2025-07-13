@@ -46,3 +46,27 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+document.getElementById("review-form").addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  const name = document.getElementById("name").value.trim();
+  const review = document.getElementById("review").value.trim();
+
+  if (name && review) {
+    const reviewCard = document.createElement("div");
+    reviewCard.className = "review-card";
+
+    reviewCard.innerHTML = `
+      <p class="reviewer">🧑 ${name}</p>
+      <p>“${review}”</p>
+    `;
+
+    document.getElementById("feedback-list").appendChild(reviewCard);
+
+    document.getElementById("review-form").reset();
+  }
+});
+
+window.addEventListener("DOMContentLoaded", function () {
+  alert("👋 Welcome to ElectroTech — Discover the Future of Innovation with Us!");
+});
